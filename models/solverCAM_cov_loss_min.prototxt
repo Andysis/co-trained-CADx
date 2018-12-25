@@ -1,0 +1,18 @@
+net: "/home/lcy/WORKSPACE/CAM/models/Dualtrain/dual_train_test_CAM_cov_loss_min.prototxt"
+
+
+#test_iter: 1  #test iteration number
+#test_interval: 100 #测试间隔
+#test_initialization: false  
+display: 100    #展示间隔
+average_loss: 100   #平均loss
+base_lr: 0.001      #基础学习率
+lr_policy: "step"    #学习率降低模式
+stepsize: 1000       
+gamma: 0.96          #lr=lr*gamma
+max_iter: 60000       #最大循环次数
+momentum: 0.9         
+weight_decay: 0.0002   
+snapshot: 500      #存储间隔
+snapshot_prefix: "/home/lcy/WORKSPACE/CAM/models/ADCT2DUALModel/model/adc_t2_dua_CAM_cov_loss_relu_1_1_0.001_scara/dual_adc_t2_CAM_cov_googlenet"   #存储路径
+solver_mode: GPU

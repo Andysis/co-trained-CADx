@@ -1,0 +1,7 @@
+Sample code for the prostate cancer locallization:
+
+Intruduction:
+
+We propose a co-trained prostate cancer locllization framework for prostate cancer localization with a weakly superwised multi-modal network.It highlights the most informative regions relevant to the predicted prostate cancer class.You could get attention-based model instantly by tweaking your own CNN a little bit more.The paper is published at MIA'17.
+ 
+The framework of the prostate cancer localization is as below:
